@@ -19,13 +19,15 @@ ul {
     color: #f9faf8;
     font-size: 18px;
     list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
 }
 
 .header {
     display: flex;
     flex: initial;
     justify-content: space-between;
-
 }
 
 /* Misc: */
