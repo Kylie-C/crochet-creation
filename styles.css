@@ -20,4 +20,13 @@ body {
 
 ul {
     margin: 0;
+    color: #f9faf8;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+/* yarn image */
+.right-container img {
+    height: auto;
+    width: 300px;
 }
