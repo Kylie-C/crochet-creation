@@ -12,3 +12,12 @@
 .blue-container {
     background-color: #3882f6;
 }
+
+/* Misc: */
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
