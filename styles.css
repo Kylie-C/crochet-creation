@@ -36,29 +36,39 @@ body {
 }
 
 .header,
-.dark-container,
 .white-container,
 .grey-container,
 .blue-container,
 .footer {
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 
 /* dark-container */
+.dark-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 100px 150px;
+    align-items: center;
+}
+
 .right-container img {
     height: auto;
-    width: 300px;
+    width: 400px;
 }
 
 .title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: extra-bold;
+    flex-wrap: wrap;
 }
 
 .content {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 25px 0;
+    line-height: 1.5;
 }
 
 .left-container button {
@@ -68,3 +78,4 @@ body {
     border-radius: 8px;
     border: 0;
 }
+/* Make the button active and whatnot */
