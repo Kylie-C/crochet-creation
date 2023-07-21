@@ -13,16 +13,33 @@
     background-color: #3882f6;
 }
 
-/* Misc: */
-body {
-    margin: 0;
-}
-
+/* header */
 ul {
     margin: 0;
     color: #f9faf8;
     font-size: 18px;
     list-style-type: none;
+}
+
+.header {
+    display: flex;
+    flex: initial;
+    justify-content: space-between;
+
+}
+
+/* Misc: */
+body {
+    margin: 0;
+}
+
+.header,
+.dark-container,
+.white-container,
+.grey-container,
+.blue-container,
+.footer {
+    padding: 10px 100px;
 }
 
 /* dark-container */
